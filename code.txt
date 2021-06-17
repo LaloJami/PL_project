@@ -1,0 +1,16 @@
+#comment
+repeat=2
+unlockpw 5245
+start shazam
+wait 2
+stop shazam
+start twitter 
+wait 3
+write "Lorem @ipsum #dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+wait 4
+stop twitter
+start spotify 
+wait 2
+stop spotify
+lock devices
+

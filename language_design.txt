@@ -1,0 +1,19 @@
+main -> range assignments
+assignment -> word number
+assignments -> assignments assignment
+range -> low high
+number -> 0-9
+word -> a-z
+
+
+main        -> statements expressions
+statements  -> empty
+statements  -> statements statement
+statement   -> word EQUALS number
+expressions -> empty
+expressions -> expressions expression
+expression  -> action word | action number
+action      -> WRITE | UNLOCKPW | LOCK | WAIT | START | STOP
+action      -> ACTION
+word        -> WORD
+
